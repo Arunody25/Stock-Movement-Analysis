@@ -17,26 +17,11 @@ matplotlib
 seaborn
 scikit-learn
 Install the required libraries using:
-
-bash
-Copy code
 pip install -r requirements.txt
-Installation
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/sentiment-stock-movement.git
-Navigate to the project directory:
-bash
-Copy code
-cd sentiment-stock-movement
-Open the Jupyter Notebook:
-bash
-Copy code
 jupyter notebook Stock_Movement_Analysis.ipynb
 Usage
-Data Preparation:
 
+Data Preparation:
 Input a dataset with sentiment scores and stock movements.
 Preprocess and clean the data as necessary.
 Visualization:
@@ -49,6 +34,9 @@ Evaluate model accuracy and performance metrics.
 Prediction:
 
 Predict stock movement (0 or 1) for new data based on sentiment scores.
-
+Acknowledgments
+TextBlob for sentiment analysis.
+Matplotlib and Seaborn for data visualization.
+Scikit-learn for machine learning models.
 
 
